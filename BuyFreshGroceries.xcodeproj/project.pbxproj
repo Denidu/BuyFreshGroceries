@@ -14,6 +14,8 @@
 		ABF6B0E62CD32B760002AE09 /* BuyFreshGroceriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B0E52CD32B760002AE09 /* BuyFreshGroceriesTests.swift */; };
 		ABF6B0F02CD32B760002AE09 /* BuyFreshGroceriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B0EF2CD32B760002AE09 /* BuyFreshGroceriesUITests.swift */; };
 		ABF6B0F22CD32B760002AE09 /* BuyFreshGroceriesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B0F12CD32B760002AE09 /* BuyFreshGroceriesUITestsLaunchTests.swift */; };
+		ABF6B1002CD32C140002AE09 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B0FF2CD32C140002AE09 /* ShopItem.swift */; };
+		ABF6B1022CD32E4F0002AE09 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF6B1012CD32E4F0002AE09 /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		ABF6B0EB2CD32B760002AE09 /* BuyFreshGroceriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuyFreshGroceriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABF6B0EF2CD32B760002AE09 /* BuyFreshGroceriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyFreshGroceriesUITests.swift; sourceTree = "<group>"; };
 		ABF6B0F12CD32B760002AE09 /* BuyFreshGroceriesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyFreshGroceriesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ABF6B0FF2CD32C140002AE09 /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		ABF6B1012CD32E4F0002AE09 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +98,10 @@
 		ABF6B0D32CD32B730002AE09 /* BuyFreshGroceries */ = {
 			isa = PBXGroup;
 			children = (
+				ABF6B0FE2CD32BEE0002AE09 /* ShopModel */,
 				ABF6B0D42CD32B730002AE09 /* BuyFreshGroceriesApp.swift */,
 				ABF6B0D62CD32B730002AE09 /* ContentView.swift */,
+				ABF6B1012CD32E4F0002AE09 /* CartView.swift */,
 				ABF6B0D82CD32B750002AE09 /* Assets.xcassets */,
 				ABF6B0DA2CD32B750002AE09 /* Preview Content */,
 			);
@@ -125,6 +131,14 @@
 				ABF6B0F12CD32B760002AE09 /* BuyFreshGroceriesUITestsLaunchTests.swift */,
 			);
 			path = BuyFreshGroceriesUITests;
+			sourceTree = "<group>";
+		};
+		ABF6B0FE2CD32BEE0002AE09 /* ShopModel */ = {
+			isa = PBXGroup;
+			children = (
+				ABF6B0FF2CD32C140002AE09 /* ShopItem.swift */,
+			);
+			path = ShopModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +273,8 @@
 			files = (
 				ABF6B0D72CD32B730002AE09 /* ContentView.swift in Sources */,
 				ABF6B0D52CD32B730002AE09 /* BuyFreshGroceriesApp.swift in Sources */,
+				ABF6B1022CD32E4F0002AE09 /* CartView.swift in Sources */,
+				ABF6B1002CD32C140002AE09 /* ShopItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
